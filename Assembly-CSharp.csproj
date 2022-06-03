@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_29;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_29;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -36,7 +36,42 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\pruebaScript.cs" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Corba.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.Runtime.JNI.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.XPath.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.WebServices.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Management.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Core.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Tools.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.Runtime.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\weka.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Crypto.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Misc.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Text.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Naming.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Parse.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Charsets.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.SwingAWT.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.API.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.Reflection.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Beans.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Jdbc.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\ICSharpCode.SharpZipLib.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Media.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Transform.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Remoting.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.AWT.WinForms.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Util.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Bind.dll" />
+    <Analyzer Include="E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Security.dll" />
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\WekaAll\pruebaScript.cs" />
+     <Compile Include="Assets\Aprendizaje.cs" />
+     <Compile Include="Assets\WekaAll\Aprendiz_2_incognitas.cs" />
+     <Compile Include="Assets\WekaAll\Hola_Weka.cs" />
+     <Compile Include="Assets\WekaAll\Aprendiz_1_incognita.cs" />
+     <Compile Include="Assets\WekaAll\AprendizLento_2_incognitas.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:\Unity\2020.3.29f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -258,6 +293,90 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>E:\Unity\2020.3.29f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Tools">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Transform">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Transform.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Media">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Beans">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Beans.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.XPath">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Jdbc">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Jdbc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Util">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Bind">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Bind.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.API">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.API.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime.JNI">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.Runtime.JNI.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Management">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Remoting">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Remoting.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.AWT.WinForms">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.AWT.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="weka">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\weka.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Text">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Crypto">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Core">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Parse">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.Parse.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.SwingAWT">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Corba">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Corba.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Naming">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Naming.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Reflection">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Security">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Misc">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Misc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.WebServices">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.XML.WebServices.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Charsets">
+        <HintPath>E:\Alberto Pc\Documents\unity\Trabajo2NoelYAlbertoVideoJuegos\Assets\WekaAll\Weka\ikvm-7.2.4630.5\bin\IKVM.OpenJDK.Charsets.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>E:\Unity\2020.3.29f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
