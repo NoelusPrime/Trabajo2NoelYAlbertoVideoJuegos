@@ -24,30 +24,31 @@ public class pruebaScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time < 2.5)
-        {
-            acelerar();
-            enderezar();
-        }else if (Time.time < 4)
-        {
-            frenar();
-            girarDerecha(45);
-        }
-        else if (Time.time < 6)
-        {
-            acelerar();
-            girarDerecha(45);
-        }
-        else if (Time.time < 8)
-        {
-            acelerar();
-            enderezar();
-        }
-        else if (Time.time < 15)
-        {
-            frenar();
-            girarIzquierda(45);
-        }
+
+        // if (Time.time < 2.5)
+        // {
+        //     acelerar();
+        //     enderezar();
+        // }else if (Time.time < 4)
+        // {
+        //     frenar();
+        //     girarDerecha(45);
+        // }
+        // else if (Time.time < 6)
+        // {
+        //     acelerar();
+        //     girarDerecha(45);
+        // }
+        // else if (Time.time < 8)
+        // {
+        //     acelerar();
+        //     enderezar();
+        // }
+        // else if (Time.time < 15)
+        // {
+        //     frenar();
+        //     girarIzquierda(45);
+        // }
 
 
     }
@@ -153,7 +154,7 @@ public class pruebaScript : MonoBehaviour
     {
         foreach (WheelCollider w in gameObject.GetComponentsInChildren<WheelCollider>())
         {
-            w.brakeTorque = 100 * intensidad;
+            w.brakeTorque = 10 * intensidad;
         }
     }
 }

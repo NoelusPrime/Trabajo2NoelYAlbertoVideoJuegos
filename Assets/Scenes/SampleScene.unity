@@ -543,8 +543,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596868878}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 1, z: 100}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 1000, y: 1, z: 1000}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -647,13 +647,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30ac757ffe07b9c4f85448ebce052281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pelota: {fileID: 311216586}
-  valorMaximoFx: 0
-  valorMaximoFy: 0
-  pasoX: 0
-  pasoY: 0
+  pelota: {fileID: 6141110749376059178, guid: b568a21abf4d93b4c959ba3996f52d85, type: 3}
+  ps: {fileID: 0}
+  valorMaximoA: 10
+  valorMaximoF: 10
+  pasoA: 1
+  pasoF: 1
   Velocidad_Simulacion: 1
-  posTarget: {fileID: 0}
+  valorMaximoV: 1000
+  pasoV: 100
+  valorMaximoG: 45
+  pasoG: 5
+  posTarget: {fileID: 1906321776}
+  posIni: {fileID: 1906321776}
+  tiempoHaciendoPrueba: 1
 --- !u!4 &1906321776
 Transform:
   m_ObjectHideFlags: 0
@@ -662,7 +669,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906321774}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2086725, y: 4.595853, z: -2.733675}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
