@@ -24,7 +24,9 @@ public class pruebaScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Rigidbody rb = GetComponent<Rigidbody>();
 
+        rb.AddForce(transform.up*-1*rb.velocity.sqrMagnitude*5, ForceMode.Force);
         // if (Time.time < 2.5)
         // {
         //     acelerar();
