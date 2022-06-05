@@ -215,24 +215,33 @@ public class Aprendizaje : MonoBehaviour
 
 
 
-                if(posDirectionLocal.x > 0){
+                if(posDirectionLocal.x > 1){
                     ps.girarDerecha((int)mejorGiro);
                     
-                } else {
+                } else if(posDirectionLocal.x < -1){
                     ps.girarIzquierda((int)mejorGiro);
                     
+                } else {
+                    ps.enderezar();
                 }
                 ps.pisarAcelerador((int)mejorAcelerar);
                                     
                 print("DECISION REALIZADA: Giro= " + mejorGiro + ", aceleracion= " + mejorAcelerar);
             }  
 
-            if((objetoEstudiante.transform.position - posTarget.transform.position).sqrMagnitude < 5){
-                print("POSICION ALCANZADA");
-                posIni.position = posTarget.position;
-                objetoEstudiante.GetComponent<Rigidbody>().isKinematic = true;
-            } else {
-                objetoEstudiante.GetComponent<Rigidbody>().isKinematic = false;
+            if(posTarget.name != "Agent"){
+                if((objetoEstudiante.transform.position - posTarget.transform.position).sqrMagnitude < 5){
+                    print("POSICION ALCANZADA");
+                    posIni.position = posTarget.position;
+                    objetoEstudiante.GetComponent<Rigidbody>().isKinematic = true;
+                } else {
+                    objetoEstudiante.GetComponent<Rigidbody>().isKinematic = false;
+                }
+            }
+            //Si se tumba, se resetea, no lo he probado
+            if(objetoEstudiante.transform.rotation.z > 40){
+                objetoEstudiante.transform.position = new Vector3(0,0,0);
+                objetoEstudiante.transform.rotation = new Quaternion(0,0,0,0);
             }
         }
     }
