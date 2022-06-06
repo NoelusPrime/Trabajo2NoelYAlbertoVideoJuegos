@@ -235,7 +235,7 @@ public class Aprendizaje : MonoBehaviour
                 //if (objetoEstudiante.GetComponent<Rigidbody>().velocity.sqrMagnitude > 2000 || Vector3.Distance(objetoEstudiante.transform.position,GameObject.Find("Agent").transform.position) < 10)
                 if (Vector3.Distance(objetoEstudiante.transform.position, GameObject.Find("Agent").transform.position) < 10)
                 {
-                    ps.pisarFreno(3);
+                    ps.pisarFreno(10);
                     ps.pisarAcelerador(0);
                 }
                 else
