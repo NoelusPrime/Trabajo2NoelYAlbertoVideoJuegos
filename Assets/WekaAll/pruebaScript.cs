@@ -91,7 +91,7 @@ public class pruebaScript : MonoBehaviour
         {
             if (w.CompareTag("RuedaDelantera"))
             {
-                if (w.steerAngle > -1)
+                /*if (w.steerAngle > -1)
                 {
                     w.steerAngle--;
                 }else if (w.steerAngle < 1)
@@ -101,7 +101,8 @@ public class pruebaScript : MonoBehaviour
                 else
                 {
                     w.steerAngle = 0;
-                }
+                }*/
+                w.steerAngle = 0;
             }
         }
     }
@@ -146,10 +147,21 @@ public class pruebaScript : MonoBehaviour
 
     public void pisarAcelerador(int intensidad)
     {
-        foreach (WheelCollider w in gameObject.GetComponentsInChildren<WheelCollider>())
+        if (gameObject.GetComponent<Rigidbody>().velocity.sqrMagnitude < 300)
         {
-            w.motorTorque = 100 * intensidad;
+            foreach (WheelCollider w in gameObject.GetComponentsInChildren<WheelCollider>())
+            {
+                w.motorTorque = 100 * intensidad;
+            }
         }
+        else
+        {
+            foreach (WheelCollider w in gameObject.GetComponentsInChildren<WheelCollider>())
+            {
+                w.motorTorque = 0;
+            }
+        }
+
     }
 
     public void pisarFreno(int intensidad)

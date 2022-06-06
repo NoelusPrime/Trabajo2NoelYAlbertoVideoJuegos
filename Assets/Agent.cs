@@ -16,17 +16,16 @@ public class Agent : MonoBehaviour
     void Start()
     {
         points = pointFather.GetComponentsInChildren<Transform>();
-
     }
 
     // Update is called once per frame
     void Update()
     {
         if(Mathf.Abs(agent.remainingDistance - agent.stoppingDistance) < 1){
-            i = (i+1) % points.Length;
+            //i = ((i + 1) % points.Length);
+            i = (i % points.Length) + 1;
             
             agent.SetDestination(points[i].position);
         }
-        
     }
 }
