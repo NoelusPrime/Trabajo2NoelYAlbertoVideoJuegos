@@ -16,7 +16,7 @@ public class pruebaScript : MonoBehaviour
     {
         Rigidbody rb = GetComponent<Rigidbody>();
 
-        //rb.AddForce(transform.up*-1*rb.velocity.sqrMagnitude*5, ForceMode.Force);
+        rb.AddForce(transform.up*-1*rb.velocity.sqrMagnitude*5, ForceMode.Force);
     }
 
     //angulos entre 0 y 45

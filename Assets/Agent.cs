@@ -21,8 +21,7 @@ public class Agent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Mathf.Abs(agent.remainingDistance - agent.stoppingDistance) < 10){
-            //i = ((i + 1) % points.Length);
+        if(Mathf.Abs(agent.remainingDistance) < 10){
             i = (i % points.Length) + 1;
             
             agent.SetDestination(points[i].position);
